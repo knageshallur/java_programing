@@ -2,11 +2,11 @@ package programs;
 
 public class SumOfArray {
     public static void main(String[] args) {
-        int numbers[]={1,2,3,4,5,6,7,8};
-        int sum=0;
-        for(int i=0;i<numbers.length;i++){
-            sum=sum+numbers[i];
-        }
-        System.out.println("sum of the given array element is:"+ sum);
+        String s="hello world";
+        StringBuilder reversed = new StringBuilder();
+        for(int i=s.length()-1 ; i>=0; i--){
+        reversed.append(s.charAt(i));
+    }
+        System.out.println(reversed);
     }
 }

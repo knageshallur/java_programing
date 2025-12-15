@@ -10,7 +10,7 @@ public class FrequencyOfCharectorInString {
 
         for(char character :s1){
 
-            frequencyMap.put(character,frequencyMap.getOrDefault(character,0)+1);
+            frequencyMap.put(character,frequencyMap.getOrDefault(character,0)+1);//getOrDefault will get the defulte value with that +1 will add if nothing is present it will return a 0 so it will become 0+1=1 if any number is present like 2 it will become 2+1=3
 
         }
         for (char c: frequencyMap.keySet()){
